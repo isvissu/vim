@@ -12,3 +12,7 @@ nnoremap : ;
 
 any way just pull the .vimrc and try the twiks
 :-)
+
+=========================
+And all the twiks are taken from net and accumulated !!
+=========================
