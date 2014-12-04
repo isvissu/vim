@@ -1,0 +1,17 @@
+#!/bin/bash
+# setting vim with viswateja's config
+echo "so starting to pull things from teja's repo"
+mkdir temp_vim_to_do_shit
+echo "hmm making new directory am i"
+cd temp_vim_to_do_shit
+echo "cding to the dir am i"
+echo "cloning from git am i"
+git clone https://github.com/isvissu/vim.git
+echo "cloned completed"
+cd ~
+cp -R temp_vim_to_do_shit/vim/.vim .
+cp -R temp_vim_to_do_shit/vim/.vimrc .
+echo "completed setup"
+echo "removing temp files am i"
+rm -rf temp_vim_to_do_shit
+echo "though cleaned my mess now code on by code on"
