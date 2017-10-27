@@ -34,7 +34,7 @@ augroup END
 
 "}}}
 autocmd BufReadCmd *.doc,*.xls,*.ppt exe ":silent 1,$!gsf-dump %" | setlocal buftype=nofile
-execute pathogen#infect()
+"execute pathogen#infect()
 
 "{{{Misc Settings
 
@@ -118,14 +118,14 @@ highlight MatchParen ctermbg=4
 " Favorite Color Scheme
 if has("gui_running")
    syntax enable
-   colorscheme monokai
+   colorscheme pablo
    " Remove Toolbar
    set guioptions-=T
    "Terminus is AWESOME
    set guifont=Terminus\ 9
 else
    syntax enable
-   colorscheme monokai
+   colorscheme pablo
 endif
 
 "Status line gnarliness
